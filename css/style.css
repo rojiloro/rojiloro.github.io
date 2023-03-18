@@ -1,0 +1,37 @@
+body {
+  position: relative;
+}
+section {
+  min-height: 500px;
+}
+.jumbotron {
+  height: 450px;
+  padding-top: 2rem;
+  background-color: #e2edff;
+  background-image: url(../img/Carousel/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  padding-top: 50px;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+#product {
+  background-color: #edc9e0;
+  padding-top: 50px;
+}
+
+.card {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer p a {
+  text-decoration: none;
+  color: white;
+}
